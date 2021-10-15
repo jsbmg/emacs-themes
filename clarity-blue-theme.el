@@ -12,15 +12,15 @@
       (light-bg        "#88a1c3")
 
       ;; highlight colors
-      (hl-blue         "#88aadd")     
+      (hl-blue         "#88aadd")
       (hl-green        "#a9dc82")
       (hl-khaki        "#dcb582")
       (hl-pink         "#dc82a9")
       (hl-red          "#dc82a9")
       (mut-green       "#118855")
       (mut-red         "#881144")
-      
-      ;; misc colors 
+
+      ;; misc colors
       (maroon          "#422732")
       (black           "#000000")
       (white           "#FFFFFF"))
@@ -64,7 +64,7 @@
 
    ;; dired
    `(dired-directory ((,class :foreground ,hl-blue)))
-   
+
    ;; mu4e
    `(mu4e-header-highlight-face ((,class :background "#165bb6"
 					 :foreground ,main-fg
@@ -73,7 +73,7 @@
    `(mu4e-highlight-face ((,class :foreground ,hl-khaki)))
    `(mu4e-title-face ((,class :foreground ,hl-green)))
    `(mu4e-unread-face ((,class :foreground ,hl-green)))
-   
+
    ;; magit
    `(magit-diff-added ((,class :background ,mut-green)))
    `(magit-diff-added-highlight ((,class :background ,hl-green :foreground ,black)))
