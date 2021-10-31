@@ -20,7 +20,7 @@
       (mut-green       "#118855")
       (mut-red         "#881144")
 
-      ;; misc colors3
+      ;; misc colors
       (maroon          "#422732")
       (black           "#111111")
       (white           "#FFFFFF"))
