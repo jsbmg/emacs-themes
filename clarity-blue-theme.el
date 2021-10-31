@@ -60,7 +60,7 @@
    `(font-lock-preprocessor-face ((,class :inherit 'default)))
    `(font-lock-regexp-grouping-backslash ((,class :inherit 'default)))
    `(font-lock-regexp-grouping-construct ((,class :inherit 'default)))
-   `(font-lock-string-face ((,class :inherit 'default)))
+   `(font-lock-string-face ((,class :inherit 'default :background "#116288")))
    `(font-lock-type-face ((,class :inherit 'default)))
    `(font-lock-variable-name-face ((,class :inherit 'default)))
    `(font-lock-warning-face ((,class :inherit 'warning)))
@@ -72,12 +72,11 @@
 
    ;; mu4e
    `(mu4e-header-highlight-face ((,class :background "#165bb6"
-					 :foreground ,main-fg
 					 :underline nil)))
    `(mu4e-header-key-face ((,class :foreground ,hl-pink)))
    `(mu4e-highlight-face ((,class :foreground ,hl-khaki)))
    `(mu4e-title-face ((,class :foreground ,hl-green)))
-   `(mu4e-unread-face ((,class :foreground ,hl-green)))
+   `(mu4e-unread-face ((,class :foreground ,hl-green :weight bold)))
 
    ;; magit
    `(magit-diff-added ((,class :background ,mut-green)))
